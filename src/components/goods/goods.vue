@@ -27,7 +27,6 @@
                 </div>
                 <div class="price">
                   <span class="now">￥{{food.price}}</span><span class="old"
-                                                                v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                 </div>
                 <div class="cartControl-wrapper">
                   <cartControl :food="food" @increment="incrementTotal"></cartControl>
@@ -45,9 +44,9 @@
     </div>
   </div>
 </template>
-<script type="text/ecmascript-6">
+<script>
   import BScroll from 'better-scroll';
-  import shopCart from '../shopcart/shopCart.vue';
+  import shopCart from '../shopcart/shopcart.vue';
   import cartControl from '../cartControl/cartControl.vue';
   import food from '../food/food.vue';
   import data from 'common/json/data.json';
