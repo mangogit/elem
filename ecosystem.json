@@ -15,7 +15,7 @@
     "production": {
       "user": "root",
       "host": ["39.108.64.128"],
-      "port": "39999",
+      "port": "22",
       "ref": "origin/master",
       "repo": "git@github.com:mangogit/elem.git",
       "path": "/root/www/elem/production",
